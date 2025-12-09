@@ -57,31 +57,43 @@
 
         colemak_dh {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+            // |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  | BKSP |
+            // | BKSP |  A  |  R  |  D  |  T  |  G  |   |  K  |  N   |  E  |  I  |  O  |  '   |
+            // |   |  |  Z  |  X  |  C  |  D  |  V  |   |  M  |  H   |  ,  |  .  |  /  | ESC  |
+            //                    | ESC | SPC | TAB |   | ENT | BSP  | DEL |
 
             display-name = "Base";
             bindings = <
 &kp TAB   &kp Q        &kp W        &kp F         &kp P         &kp B        &kp J        &kp L         &kp U         &kp Y        &kp SEMI     &kp BSPC
 &kp BSPC  &HRL LGUI A  &HRL LALT R  &HRL LCTRL S  &HRL LSHFT T  &kp G        &kp K        &HRR RSHFT N  &HRR RCTRL E  &HRR RALT I  &HRR RGUI O  &kp SQT
 &kp PIPE  &kp Z        &kp X        &kp C         &kp D         &kp V        &kp M        &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp ESC
-                                    &kp LGUI      &mo 3         &kp SPACE    &lt 4 ENTER  &mo 3         &mo 5
+                                    &kp ESC       &mo SPACE     &kp TAB    &lt 4 ENTER  &lt 3 BKSP      &lt 5 DEL
             >;
         };
 
         qwerty {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &HRL LGUI A  &HRL LALT S  &HRL LCTRL D  &HRL LSHFT F  &kp G        &kp H        &HRR RSHFT J  &HRR RCTRL K  &HRR RALT L  &HRR RGUI SEMI  &kp SQT
+//&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &kp LGUI  &mo 3  &kp SPACE    &kp RET  &mo 0  &kp RALT
             >;
         };
 
         mtgap {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
             display-name = "MTGAP";
             bindings = <
 &kp TAB   &kp Y        &kp P        &kp O         &kp U         &kp J           &kp K    &kp D         &kp L         &kp C        &kp W        &kp BSPC
@@ -93,15 +105,15 @@
 
         numeric {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |  TAB |  1  |  6  |  7  |  9  |     |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // | BTCLR| BT1 |  4  |  5  |  6  |     |   | LFT | DWN |  UP | RGT |     |      |
+            // | SHFT |     |  1  |  2  |  3  |     |   |     |     |     |     |     |      |
+            //                    |  .  |  0  | SPC |   | ENT |     | ALT |
 
             display-name = "NUM";
             bindings = <
 &kp KP_DIVIDE  &kp LS(KP_MULTIPLY)  &kp N7  &kp N8  &kp N9   &kp LPAR     &kp RPAR  &trans  &trans    &trans  &trans  &trans
-&trans         &kp KP_MINUS         &kp N4  &kp N5  &kp N6   &kp LBKT     &kp RBKT  &trans  &trans    &trans  &trans  &trans
+&trans         &kp KP_MINUS         &kp N4  &kp N5  &kp N6   &kp LBKT     &kp RBKT  &HRR RSHFT J  &HRR RCTRL K  &HRR RALT L  &HRR RGUI SEMI  &trans
 &kp DEL        &kp KP_PLUS          &kp N1  &kp N2  &kp N3   &kp LBRC     &kp RBRC  &trans  &trans    &trans  &trans  &trans
                                             &kp N0  &kp DOT  &kp SPACE    &kp RET   &trans  &kp RALT
             >;
@@ -111,7 +123,7 @@
             display-name = "SYMBOLS";
             bindings = <
 &trans     &trans          &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LPAR     &kp RPAR  &trans  &trans    &trans  &trans  &trans
-&trans     &kp PLUS        &kp DOLLAR     &kp PERCENT   &kp CARET             &kp LBKT     &kp RBKT  &trans  &trans    &trans  &trans  &trans
+&trans     &kp PLUS        &kp DOLLAR     &kp PERCENT   &kp CARET             &kp LBKT     &kp RBKT  &HRR RSHFT J  &HRR RCTRL K  &HRR RALT L  &HRR RGUI SEMI  &trans
 &kp TILDE  &kp UNDERSCORE  &kp EXCL       &kp AT        &kp HASH              &kp LBRC     &kp RBRC  &trans  &trans    &trans  &trans  &trans
                                           &kp N0        &kp DOT               &kp SPACE    &kp RET   &trans  &kp RALT
             >;
@@ -121,7 +133,7 @@
             display-name = "FUNC";
             bindings = <
 &kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &trans   &trans  &trans  &trans  &trans  &trans
-&win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     &trans   &trans  &trans  &trans  &trans  &trans
+&win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     &trans   &HRR RSHFT J  &HRR RCTRL K  &HRR RALT L  &HRR RGUI SEMI  &trans
 &CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &trans   &trans  &trans  &trans  &trans  &trans
                                     &kp N0  &kp DOT  &kp SPACE          &kp RET  &trans  &none
             >;
