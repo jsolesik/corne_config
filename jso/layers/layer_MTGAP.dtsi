@@ -1,0 +1,33 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        mtgap {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Y  |  P  |  O  |  U  |  J  |         |  K  |  D   |  L  |  C  |  W  | BKSP |
+            // | BSPC |  I  |  N  |  E  |  A  |  ,  |         |  M  |  H   |  T  |  S  |  R  |      |
+            // |  |   |  Q  |  Z  |  /  |  .  |  :  |         |  B  |  F   |  G  |  V  |  X  | ESC  |
+            //                    | ESC | SPC | TAB |         | ENT | BSPC | DEL |
+
+            display-name = "MTGAP";
+            bindings = <
+&kp TAB   &kp Y        &kp P        &kp O          &kp U          &kp J            &kp K          &kp D         &kp L         &kp C        &kp W        &kp BSPC
+&kp BSPC  HR(LGUI, I)  HR(LALT, N)  HR(LCTRL, E)   HR(LSHFT, A)   MT_COMMA         &kp M          HR(RSHFT, H)  HR(RCTRL, T)  HR(RALT, S)  HR(RGUI, R)  &kp SQT
+&kp PIPE  &kp Q        &kp Z        MT_SLASH       MT_DOT         MT_SEMI          &kp B          &kp F         &kp G         &kp V        &kp X        &kp ESC
+                                    LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)    LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+            >;
+        };
+    };
+};
+
+/*
+MTGAP:
+ Y  P  O  U  J   K  D  L  C  W
+ I  N  E  A  ;   M  H  T  S  R
+ Q  Z  <  >  ?   B  F  G  V  X
+
+ y  p  o  u  j   k  d  l  c  w
+ i  n  e  a  ,   m  h  t  s  r
+ q  z  /  .  :   b  f  g  v  x
+*/

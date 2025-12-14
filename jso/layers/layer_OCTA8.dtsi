@@ -1,0 +1,29 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        octa8 {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Y  |  O  |  U  |  K  |  X  |         |  G  |  W   |  D  |  L  |  ,  | BSPC |
+            // | BKSP |  I  |  A  |  E  |  N  |  F  |         |  B  |  S   |  T  |  R  |  C  |  ;   |
+            // |   |  |  /  |  Z  |  H  |  '  |  Q  |         |  V  |  P   |  M  |  J  |  .  | ESC  |
+            //                    | ESC | SPC | TAB |         | ENT | BSPC | DEL |
+
+            display-name = "Octa8";
+            bindings = <
+&kp TAB   &kp Y        &kp O        &kp U          &kp K          &kp X            &kp G          &kp W         &kp D         &kp L        &kp COMMA    &kp BSPC
+&kp BSPC  HR(LGUI, I)  HR(LALT, A)  HR(LCTRL, E)   HR(LSHFT, N)   &kp F            &kp B          HR(RSHFT, S)  HR(RCTRL, T)  HR(RALT, R)  HR(RGUI, C)  &kp SEMI
+&kp PIPE  &kp SLASH    &kp Z        &kp H          &kp SQT        &kp Q            &kp V          &kp P         &kp M         &kp J        &kp DOT      &kp ESC
+                       LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)        LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+            >;
+        };
+    };
+};
+
+/*
+OCTA8:
+y o u k x  	g w d l ,
+i a e n f  	b s t r c ;
+/ z h ' q  	v p m j .
+*/

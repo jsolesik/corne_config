@@ -1,0 +1,29 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        isrt {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Y  |  C  |  L  |  M  |  K  |         |  Z  |  F   |  U  |  ,  |  '  |  -   |
+            // | BKSP |  I  |  S  |  R  |  T  |  G  |         |  P  |  N   |  E  |  A  |  O  |  ;   |
+            // |   |  |  Q  |  V  |  W  |  D  |  J  |         |  B  |  H   |  /  |  .  |  X  | ENT  |
+            //                    | ESC | SPC | TAB |         | ENT | BSPC | DEL |
+
+            display-name = "ISRT";
+            bindings = <
+&kp TAB   &kp Y        &kp C        &kp L          &kp M          &kp K            &kp Z          &kp F         &kp U         &kp COMMA    &kp SQT      &kp MINUS
+&kp BSPC  HR(LGUI, I)  HR(LALT, S)  HR(LCTRL, R)   HR(LSHFT, T)   &kp G            &kp P          HR(RSHFT, N)  HR(RCTRL, E)  HR(RALT, A)  HR(RGUI, O)  &kp SEMI
+&kp PIPE  &kp Q        &kp V        &kp W          &kp D          &kp J            &kp B          &kp H         &kp SLASH     &kp DOT      &kp X        &kp RET
+                       LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)        LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+            >;
+        };
+    };
+};
+
+/*
+ISRT:
+TAB   Y C L M K		Z F U , ' -
+BSPC  I S R T G		P N E A O ;
+|     Q V W D J		B H / . X ENT
+   SFT MOD   BSPC SPACE
+*/

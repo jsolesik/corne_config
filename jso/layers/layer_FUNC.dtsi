@@ -1,0 +1,16 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        functions {
+            display-name = "FUNC";
+            bindings = <
+&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &none  &none          &none         &none        &none           &kp BSPC
+&win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     &none  &HRR RSHFT J   &HRR RCTRL K  &HRR RALT L  &HRR RGUI SEMI  &kp RET
+&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &none  &layer_lock 5  &none         &none        &none           &kp DELETE
+                                    &kp K_APP  &kp SPACE  &kp TAB          &none  &none          &none
+            >;
+        };
+    };
+};

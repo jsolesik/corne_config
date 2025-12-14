@@ -1,0 +1,51 @@
+/ {
+  behaviors {
+    b_mt: b_mt {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      flavor = "tap-preferred";
+      bindings = <&kp>, <&kp>;
+    };
+    b_lt: b_lt {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      tapping-term-ms = <U_TAPPING_TERM>;
+      flavor = "tap-preferred";
+      bindings = <&mo>, <&kp>;
+    };
+    b_hr: b_hr {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      tapping-term-ms = <280>;
+      quick-tap-ms = <175>;
+      flavor = "tap-preferred";
+      hold-trigger-on-release;
+      bindings = <&kp>, <&kp>;
+    };
+    slash_lt: slash_lt {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp FSLH>, <&kp LT>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    dot_gt: dot_gt {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp FSLH>, <&kp LT>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    colon_qmark: colon_qmark {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp COLON>, <&kp QMARK>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    comma_semi: comma_semi {
+      compatible = "zmk,behavior-mod-morph";
+      #binding-cells = <0>;
+      bindings = <&kp COMMA>, <&kp SEMI>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        navigation {
+            display-name = "NAV";
+            bindings = <
+&none     &none        &none        &none         &none         &none    &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none
+&kp BSPC  &HRL LGUI A  &HRL LALT R  &HRL LCTRL S  &HRL LSHFT T  &none    &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+&none     &none        &none        &none         &none         &none    &kp INS       &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none
+                                    &none         &none         &none    &kp RET       &kp BSPC        &kp DEL
+            >;
+        };
+    };
+};

@@ -1,0 +1,24 @@
+/{
+    macros {
+        CtrlAltDel: CtrlAltDel {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LALT &kp DEL>;
+            label = "CTRLALTDEL";
+        };
+
+        win_screenshot: win_screenshot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LGUI &kp LSHFT &kp S>;
+            label = "WIN_SCREENSHOT";
+        };
+
+        vader: vader {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp A &kp D &kp E &kp R>;
+            label = "VADER";
+        };
+    };
+};

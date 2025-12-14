@@ -1,0 +1,33 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        colemakDM {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  W  |  F  |  P  |  B  |         |  J  |  L   |  U  |  Y  |  ;  |  [  |
+            // | BKSP |  A  |  R  |  S  |  T  |  G  |         |  K  |  N   |  E  |  I  |  O  |  ]  |
+            // |   |  |  Z  |  X  |  C  |  D  |  V  |         |  M  |  H   |  ,  |  .  |  /  |  \ |
+            //                    | ESC | SPC | TAB |         | ENT | BSPC | DEL |
+
+            display-name = "Colemak DH";
+            bindings = <
+&kp TAB   &kp Q        &kp W        &kp F          &kp P          &kp B            &kp J          &kp L         &kp U         &kp Y        &kp SEMI     &kp LEFT_BRACKET
+&kp BSPC  HR(LGUI, A)  HR(LALT, R)  HR(LCTRL, S)   HR(LSHFT, T)   &kp G            &kp M          HR(RSHFT, N)  HR(RCTRL, E)  HR(RALT, I)  HR(RGUI, O)  &kp RIGHT_BRACKET
+&kp PIPE  &kp Z        &kp X        &kp C          &kp D          &kp V            &kp K          &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp BACKSLASH
+                    LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)           LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+            >;
+        };
+    };
+};
+
+/*
+COLEMAK-DH:
+---------------------------
+ 1 2 3 4 5  6 7 8 9 0    [ 
+ q w f p b  j l u y ;    ] 
+ a r s t g  m n e i o    \ 
+ z x c d v  k h , . /      
+---------------------------
+
+*/

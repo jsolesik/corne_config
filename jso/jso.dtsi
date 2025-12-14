@@ -1,0 +1,32 @@
+#include <behaviors.dtsi>
+#include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/ext_power.h>
+
+#include "jso.h"
+
+#include <dt-bindings/zmk/pointing.h>
+
+#define JSO_X(LAYER, NAME) \
+#include "layers/layer_NAME.dtsi"
+JSO_LAYER_LIST
+#undef JSO_X
+
+/ {
+  conditional_layers {
+    compatible = "zmk,conditional-layers";
+
+    adjust_condition {
+      if-layers = <L_LOWER L_RAISE>;
+      then-layer = <L_ADJUST>;
+    };
+  };
+};
+
+#include "jso_double_tap.dtsi"
+#include "jso_mousekeys.dtsi"
+#include "jso_combos.dtsi"
+#include "jso_behaviors.dtsi"

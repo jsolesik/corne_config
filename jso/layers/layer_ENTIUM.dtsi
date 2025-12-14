@@ -1,0 +1,30 @@
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        entium {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  Q  |  Y  |  O  |  U  |  =  |         |  X  |  L   |  D  |  W  |  Z  | BSPC |
+            // |   B  |  C  |  I  |  A  |  E  |  -  |         |  K  |  H   |  T  |  N  |  S  |  F   |
+            // |      |  '  |  ,  |  .  |  ;  |  /  |         |  J  |  M   |  G  |  P  |  V  | RET  |
+            //                    | ESC | SPC | TAB |         | ENT |  R | DEL |
+
+            display-name = "Entium v12";
+            bindings = <
+&kp TAB   &kp Q        &kp Y        &kp O          &kp U          &kp EQUAL        &kp X    &kp L         &kp D         &kp W        &kp Z        &kp BSPC
+&kp B     HR(LGUI, C)  HR(LALT, I)  HR(LCTRL, A)   HR(LSHFT, E)   &kp MINUS        &kp K    HR(RSHFT, H)  HR(RCTRL, T)  HR(RALT, N)  HR(RGUI, S)  &kp F
+&kp PIPE  &kp SQT      &kp COMMA    &kp DOT        &kp SEMI       &kp SLASH        &kp J    &kp M         &kp G         &kp P        &kp V        &kp RET
+                       LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)        LT(L_SYM, ENTER)  LT(L_NUM, R)   LT(L_FUNC, DEL)
+            >;
+        };
+    };
+};
+
+/*
+ENTIUMv12:
+  q y o u = 	x l d w z
+b c i a e - 	k h t n s f
+  ' , . ; / 	j m g p v
+				r
+*/

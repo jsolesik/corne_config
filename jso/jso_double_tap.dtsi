@@ -1,0 +1,26 @@
+#define JSO_DOUBLE_TAP(NAME, TAP_1, TAP_2) \
+/ { \
+  behaviors { \
+    NAME: NAME { \
+      compatible = "zmk,behavior-tap-dance"; \
+      #binding-cells = <0>; \
+      tapping-term-ms = <U_TAPPING_TERM>; \
+      bindings = <TAP_1>, <TAP_2>; \
+    }; \
+  }; \
+};
+
+#define JSO_DOUBLE_TAP_SAFE(NAME, TAP) \
+JSO_DOUBLE_TAP(NAME, &none, TAP)
+
+
+#define JSO_X(LAYER, NAME) \
+JSO_DOUBLE_TAP_SAFE(b_to_L_##LAYER, &to L_##LAYER)
+JSO_LAYER_LIST
+#undef JSO_X
+
+//JSO_DOUBLE_TAP(b_soft_off, &soft_off)
+JSO_DOUBLE_TAP(b_bootloader, &bootloader)
+
+//hold, tap, double tap behavior
+//JSO_DOUBLE_TAP(b_dt_l_num, &lt L_NUM BSPC, &tog_on L_NUM)
