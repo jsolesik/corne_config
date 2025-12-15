@@ -28,7 +28,7 @@ B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, EN
 #define JSO_LAYER_BINDINGS_NUM \
 &none  &kp LBKT &kp N7 &kp N8 &kp N9 &kp RBKT &none &b_to_L_BASE &b_to_L_ALTER &b_to_L_EXTRA &b_to_L_OPT &none \
 &none  &kp SEMI &kp N4 &kp N5 &kp N6 &kp EQUAL &none &kp RSHFT &kp RCTRL &kp RALT &kp RGUI &none \
-&none  &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BLSH &none &b_to_L_NUM &b_to_L_NAV &none &none &none \
+&none  &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BSLH &none &b_to_L_NUM &b_to_L_NAV &none &none &none \
 &kp DOT  &kp N0 &kp MINUS &none &none &none 
 
 #define JSO_LAYER_BINDINGS_SYM \
