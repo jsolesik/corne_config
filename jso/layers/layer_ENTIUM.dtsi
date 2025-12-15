@@ -1,8 +1,3 @@
-
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         entium {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  Y  |  O  |  U  |  =  |         |  X  |  L   |  D  |  W  |  Z  | BSPC |
@@ -18,8 +13,6 @@
                         B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, ENTER)  B_LT(L_NUM, R)   B_LT(L_FUNC, DEL)
             >;
         };
-    };
-};
 
 /*
 ENTIUMv12:

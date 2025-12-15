@@ -23,4 +23,5 @@ JSO_LAYER_LIST
 JSO_DOUBLE_TAP_SAFE(b_bootloader, &bootloader)
 
 //hold, tap, double tap behavior
-//JSO_DOUBLE_TAP(b_dt_l_num, &lt L_NUM BSPC, &tog_on L_NUM)
+JSO_DOUBLE_TAP(hdt_to_L_LOWER, &mo L_LOWER DEL, &tog L_LOWER)
+JSO_DOUBLE_TAP(hdt_to_L_RAISE, &mo L_RAISE BSPC, &tog L_RAISE)

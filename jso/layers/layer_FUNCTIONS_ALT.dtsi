@@ -1,8 +1,3 @@
-
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         functions_alt {
             // -----------------------------------------------------------------------------------------
             // |     |     |     |     |     |     |         | PRSC | F7 | F8 | F9  | F12 |    | 
@@ -18,5 +13,4 @@
                                 &none         &none        &none       &kp TAB  &kp SPACE  &kp K_APP
             >;
         };
-    };
-};
+
