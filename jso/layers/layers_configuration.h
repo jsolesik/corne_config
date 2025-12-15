@@ -26,43 +26,43 @@ B_LT(L_MEDIA, ESC) B_LT(L_NAV, SPACE) B_LT(L_MOUSE, TAB) B_LT(L_SYM, ENTER) B_LT
 B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, ENTER)  B_LT(L_NUM, BSPC)   B_LT(L_FUNC, DEL)
 
 #define JSO_LAYER_BINDINGS_NUM \
-&none  &kp LBKT &kp N7 &kp N8 &kp N9 &kp RBKT &none B_TO(BASE) B_TO(ALTER) B_TO(EXTRA) B_TO(OPT) &none \
+&none  &kp LBKT &kp N7 &kp N8 &kp N9 &kp RBKT &none &b_to_L_BASE &b_to_L_ALTER &b_to_L_EXTRA &b_to_L_OPT &none \
 &none  &kp SEMI &kp N4 &kp N5 &kp N6 &kp EQUAL &none &kp RSHFT &kp RCTRL &kp RALT &kp RGUI &none \
-&none  &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BLSH &none B_TO(NUM) B_TO(NAV) &none &none &none \
+&none  &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BLSH &none &b_to_L_NUM &b_to_L_NAV &none &none &none \
 &kp DOT  &kp N0 &kp MINUS &none &none &none 
 
 #define JSO_LAYER_BINDINGS_SYM \
-&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  B_TO(BASE)    B_TO(ALTER)   B_TO(EXTRA)  B_TO(OPT)      &none \
+&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  &b_to_L_BASE    &b_to_L_ALTER   &b_to_L_EXTRA  &b_to_L_OPT      &none \
 &none  &kp COLON  &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS          &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI    &none \
-&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  B_TO(SYM)     B_TO(MOUSE)   &none   &none  &none \
+&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  &b_to_L_SYM     &b_to_L_MOUSE   &none   &none  &none \
 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &none  &none      &none
 
 #define JSO_LAYER_BINDINGS_FUNC \
-&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &none  B_TO(BASE)    B_TO(ALTER)   B_TO(EXTRA)  B_TO(OPT)       &none \
+&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &none  &b_to_L_BASE    &b_to_L_ALTER   &b_to_L_EXTRA  &b_to_L_OPT       &none \
 &win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI     &none \
-&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &none  B_TO(FUNC)    B_TO(MEDIA)   &none   &none  &none \
+&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &none  &b_to_L_FUNC    &b_to_L_MEDIA   &none   &none  &none \
 &kp K_APP  &kp SPACE  &kp TAB       &none  &none      &none
 
 #define JSO_LAYER_BINDINGS_NAV \
-&none     B_TO(OPT)        B_TO(EXTRA)  B_TO(ALTER)   B_TO(BASE)    &none       &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
+&none     &b_to_L_OPT        &b_to_L_EXTRA  &b_to_L_ALTER   &b_to_L_BASE    &none       &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
 &none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none \
-&none     &none    &none     B_TO(NUM)     B_TO(NAV)     &none       &kp INS       &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none \
+&none     &none    &none     &b_to_L_NUM     &b_to_L_NAV     &none       &kp INS       &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none \
 &none      &none      &none       &kp RET       &kp BSPC        &kp DEL
 
 #define JSO_LAYER_BINDINGS_MOUSE \
-&none     B_TO(OPT)        B_TO(EXTRA)  B_TO(ALTER)   B_TO(BASE)    &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
+&none     &b_to_L_OPT   &b_to_L_EXTRA  &b_to_L_ALTER   &b_to_L_BASE    &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
 &none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none \
-&none     &none  &none     B_TO(SYM)     B_TO(MOUSE)   &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none \
+&none     &none  &none     &b_to_L_SYM     &b_to_L_MOUSE   &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none \
 &none      &none      &none       &mkp M2     &mkp M1         &mkp M3
                                   
 #define JSO_LAYER_BINDINGS_MEDIA \
-&none     B_TO(OPT)        B_TO(EXTRA)  B_TO(ALTER)   B_TO(BASE)    &none       &none              &none             &kp C_BRI_DN  &kp C_BRI_UP  &none         &none \
+&none     &b_to_L_OPT        &b_to_L_EXTRA  &b_to_L_ALTER   &b_to_L_BASE    &none       &none              &none             &kp C_BRI_DN  &kp C_BRI_UP  &none         &none \
 &none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &ext_power EP_TOG  &kp C_PREV        &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &none \
-&none     &none  &none     B_TO(FUN)     B_TO(MEDIA)   &none       &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR \
+&none     &none  &none     &b_to_L_FUNC     &b_to_L_MEDIA   &none       &out OUT_TOG       &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR \
 &none      &none      &none       &kp C_STOP         &kp C_PLAY_PAUSE  &kp C_MUTE
 
 #define JSO_LAYER_BINDINGS_LOWER \
-&kp ESC    &none                 &kp N7  &kp N8    &kp N9     &kp PAGE_UP           &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)   &none         B_TO(BASE)                 &kp DELETE \
+&kp ESC    &none                 &kp N7  &kp N8    &kp N9     &kp PAGE_UP           &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)   &none         &b_to_L_BASE                 &kp DELETE \
 &kp LCTRL  &none                 &kp N4  &kp N5    &kp N6     &kp PAGE_DOWN         &kp LEFT           &kp DOWN         &kp UP        &kp RIGHT     &none                 &kp RET \
 &kp LSHFT  &kp LC(LS(LA(LGUI)))  &kp N1  &kp N2    &kp N3     &kp N0                &kp C_VOL_DN       &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP  &kp LC(LS(LA(LGUI)))  &kp LG(LSHFT) \
 &kp LGUI  &trans L_ALTER  &kp SPACE        &kp LG(LA(SPACE))  &trans        &kp RALT
