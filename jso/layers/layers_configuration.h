@@ -65,7 +65,7 @@ B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, EN
 &kp ESC    &none                 &kp N7  &kp N8    &kp N9     &kp PAGE_UP           &kp LG(LS(J))      &kp LC(LS(TAB))  &kp LC(TAB)   &none         &b_to_L_BASE                 &kp DELETE \
 &kp LCTRL  &none                 &kp N4  &kp N5    &kp N6     &kp PAGE_DOWN         &kp LEFT           &kp DOWN         &kp UP        &kp RIGHT     &none                 &kp RET \
 &kp LSHFT  &kp LC(LS(LA(LGUI)))  &kp N1  &kp N2    &kp N3     &kp N0                &kp C_VOL_DN       &kp C_VOL_UP     &kp C_BRI_DN  &kp C_BRI_UP  &kp LC(LS(LA(LGUI)))  &kp LG(LSHFT) \
-&kp LGUI  &trans L_ALTER  &kp SPACE        &kp LG(LA(SPACE))  &trans        &kp RALT
+&kp LGUI  &trans  &kp SPACE        &kp LG(LA(SPACE))  &trans        &kp RALT
 
 #define JSO_LAYER_BINDINGS_RAISE \
 &kp GRAVE  &kp EXCL              &kp AT          &kp POUND             &kp DOLLAR        &kp PERCENT        &kp CARET          &kp AMPS           &kp STAR               &kp PLUS         &kp EQUAL             &kp MINUS \
