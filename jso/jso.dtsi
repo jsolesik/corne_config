@@ -16,7 +16,7 @@
 
 #include "layers/layer_COLEMAK.dtsi"
 #include "layers/layer_QWERTY.dtsi"
-#include "layers/layer_ISRT.dtsi"
+#include "layers/layer_MTGAP.dtsi"
 #include "layers/layer_OCTA8.dtsi"
 
   };

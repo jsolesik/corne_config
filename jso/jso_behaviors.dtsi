@@ -28,20 +28,17 @@
   }; \
 };
 
-#define JSO_MOD_MORPH(NAME, MOD, TAP_1, TAP_2) \
+#define JSO_MOD_MT(NAME, TAP_1, TAP_2) \
 / { \
   behaviors { \
     NAME: NAME { \
       compatible = "zmk,behavior-mod-morph"; \
       #binding-cells = <0>; \
       bindings = <&kp TAP_1>, <&kp TAP_2>; \
-      mods = <MOD>; \
+      mods = <(MOD_LSFT|MOD_RSFT)>; \
     }; \
   }; \
 };
-
-#define JSO_MOD_MT(NAME, TAP_1, TAP_2) \
-JSO_MOD_MORPH(NAME, (MOD_LSFT|MOD_RSFT), TAP_1, TAP_2)
 
 JSO_HOLD_TAP(b_mt, &kp, &kp)
 JSO_HOLD_TAP(b_lt, &mo, &kp)
