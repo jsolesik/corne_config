@@ -10,3 +10,4 @@
   time-to-max-speed-ms = <U_MOUSE_SCROLL_TIME>;
   delay-ms = <U_MOUSE_SCROLL_DELAY>;
 };
+*/
