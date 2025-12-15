@@ -29,7 +29,7 @@ JSO_X(ADJUST,    ADJUST)
 #define L_ALTER     1   
 #define L_EXTRA     2   
 #define L_OPT       3     
-/*#define L_NUM       4     
+#define L_NUM       4     
 #define L_NUM_ALT   5 
 #define L_SYM       6     
 #define L_SYM_ALT   7 
@@ -44,5 +44,5 @@ JSO_X(ADJUST,    ADJUST)
 #define L_LOWER     16   
 #define L_RAISE     17   
 #define L_ADJUST    18  
-*/
+
 #endif
