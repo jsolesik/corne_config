@@ -1,7 +1,3 @@
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         isrt {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Y  |  C  |  L  |  M  |  K  |         |  Z  |  F   |  U  |  ,  |  '  |  -   |
@@ -17,8 +13,6 @@
                        B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, ENTER)  B_LT(L_NUM, BSPC)   B_LT(L_FUNC, DEL)
             >;
         };
-    };
-};
 
 /*
 ISRT:
