@@ -10,12 +10,16 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
 #define JSO_X(LAYER, NAME) \
 #include "layers/layer_##NAME.dtsi"
 JSO_LAYER_LIST
 #undef JSO_X
+  };
 
-/ {
   conditional_layers {
     compatible = "zmk,conditional-layers";
 

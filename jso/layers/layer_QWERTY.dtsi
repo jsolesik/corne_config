@@ -1,8 +1,4 @@
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         qwerty {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |        |  Y  |  U   |  I  |  O  |  P  | BKSP |
@@ -18,8 +14,6 @@
                                      &kp LGUI      &mo L_LOWER   &kp SPACE    &kp RET  &mo L_RAISE   &kp RALT
             >;
         };
-    };
-};
 
 /*
 QWERTY:

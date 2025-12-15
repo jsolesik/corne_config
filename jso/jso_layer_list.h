@@ -6,7 +6,8 @@
 JSO_X(BASE,      COLEMAK) \
 JSO_X(ALTER,     QWERTY) \
 JSO_X(EXTRA,     MTGAP) \
-JSO_X(OPT,       OCTA8) \
+JSO_X(OPT,       OCTA8) 
+/*\
 JSO_X(NUM,       NUMERIC) \
 JSO_X(NUM_ALT,   NUMERIC_ALT) \
 JSO_X(SYM,       SYMBOLS) \
@@ -21,14 +22,14 @@ JSO_X(MEDIA,     MEDIA) \
 JSO_X(MEDIA_ALT, MEDIA_ALT) \
 JSO_X(LOWER,     LOWER) \
 JSO_X(RAISE,     RAISE) \
-JSO_X(ADJUST,    ADJUST)
-
+JSO_X(ADJUST,    ADJUST) 
+*/
 
 #define L_BASE      0
 #define L_ALTER     1   
 #define L_EXTRA     2   
 #define L_OPT       3     
-#define L_NUM       4     
+/*#define L_NUM       4     
 #define L_NUM_ALT   5 
 #define L_SYM       6     
 #define L_SYM_ALT   7 
@@ -43,4 +44,5 @@ JSO_X(ADJUST,    ADJUST)
 #define L_LOWER     16   
 #define L_RAISE     17   
 #define L_ADJUST    18  
+*/
 #endif

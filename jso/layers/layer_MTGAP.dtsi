@@ -1,8 +1,4 @@
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
-
         mtgap {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Y  |  P  |  O  |  U  |  J  |         |  K  |  D   |  L  |  C  |  W  | BKSP |
@@ -18,8 +14,6 @@
                                     B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)    B_LT(L_SYM, ENTER)  B_LT(L_NUM, BSPC)   B_LT(L_FUNC, DEL)
             >;
         };
-    };
-};
 
 /*
 MTGAP:
