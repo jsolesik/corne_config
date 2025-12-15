@@ -12,9 +12,9 @@
 
             display-name = "FUNC ALT";
             bindings = <
-&none       TO_OPT    TO_EXTRA  TO_ALTER      TO_BASE      &none       &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12  &kp K_SCREENSAVER
+&none       TO(OPT)    TO(EXTRA)  TO(ALTER)      TO(BASE)      &none       &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12  &kp K_SCREENSAVER
 &none       &kp LGUI  &kp LALT  &kp LCTRL     &kp LSHFT    &none       &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11  &win_screenshot
-&none       TO_FUNC   &none     TO_MEDIA_ALT  TO_FUNC_ALT  &none       &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &CtrlAltDel
+&none       TO(FUNC)   &none     TO(MEDIA_ALT)  TO(FUNC_ALT)  &none       &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10  &CtrlAltDel
                                 &none         &none        &none       &kp TAB  &kp SPACE  &kp K_APP
             >;
         };

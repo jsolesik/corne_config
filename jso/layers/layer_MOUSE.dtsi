@@ -12,9 +12,9 @@
 
             display-name = "MOUSE";
             bindings = <
-&none     TO_OPT        TO_EXTRA  TO_ALTER   TO_BASE    &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none
+&none     TO(OPT)        TO(EXTRA)  TO(ALTER)   TO(BASE)    &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none
 &none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none     TO_MOUSE_ALT  &none     TO_SYM     TO_MOUSE   &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
+&none     TO(MOUSE_ALT)  &none     TO(SYM)     TO(MOUSE)   &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
                                   &none      &none      &none       &mkp M2     &mkp M1         &mkp M3
             >;
         };

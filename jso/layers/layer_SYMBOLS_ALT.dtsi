@@ -11,9 +11,9 @@
             //                   |     |     |     |         |  _  |  (  |  )  |  
             display-name = "SYMBOLS ALT";
             bindings = <
-&none  TO_OPT    TO_EXTRA   TO_ALTER      TO_BASE     &none             &kp LBRC       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RBRC    &none
+&none  TO(OPT)    TO(EXTRA)   TO(ALTER)      TO(BASE)     &none             &kp LBRC       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RBRC    &none
 &none  &kp LGUI  &kp LALT   &kp LCTRL     &kp LSHFT   &none             &kp COLON      &kp DOLLAR     &kp PERCENT   &kp CARET             &kp PLUS    &none
-&none  TO_SYM    &none      TO_MOUSE_ALT  TO_SYM_ALT  &none             &kp TILDE      &kp EXCL       &kp AT        &kp HASH              &kp PIPE    &none
+&none  TO(SYM)    &none      TO(MOUSE_ALT)  TO(SYM_ALT)  &none             &kp TILDE      &kp EXCL       &kp AT        &kp HASH              &kp PIPE    &none
                             &none         &none       &none             &kp UNDERSCORE &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
             >;
         };

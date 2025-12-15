@@ -12,9 +12,9 @@
 
             display-name = "FUNC";
             bindings = <
-&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &none  TO_BASE    TO_ALTER   TO_EXTRA  TO_OPT       &none
+&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    &none  TO(BASE)    TO(ALTER)   TO(EXTRA)  TO(OPT)       &none
 &win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI     &none
-&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &none  TO_FUNC    TO_MEDIA   &none     TO_FUNC_ALT  &none
+&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    &none  TO(FUNC)    TO(MEDIA)   &none     TO(FUNC_ALT)  &none
                                     &kp K_APP  &kp SPACE  &kp TAB       &none  &none      &none
             >;
         };

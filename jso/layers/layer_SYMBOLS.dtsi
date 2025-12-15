@@ -12,9 +12,9 @@
 
             display-name = "SYMBOLS";
             bindings = <
-&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  TO_BASE    TO_ALTER   TO_EXTRA  TO_OPT      &none
+&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  TO(BASE)    TO(ALTER)   TO(EXTRA)  TO(OPT)      &none
 &none  &kp COLON  &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS          &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI    &none
-&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  TO_SYM     TO_MOUSE   &none     TO_SYM_ALT  &none
+&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  TO(SYM)     TO(MOUSE)   &none     TO(SYM_ALT)  &none
                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &none  &none      &none
             >;
         };

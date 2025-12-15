@@ -12,9 +12,9 @@
 
             display-name = "NUM ALT";
             bindings = <
-&none  TO_OPT    TO_EXTRA  TO_ALTER   TO_BASE    &none     &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBRK   &none 
+&none  TO(OPT)    TO(EXTRA)  TO(ALTER)   TO(BASE)    &none     &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBRK   &none 
 &none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none     &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL  &none 
-&none  TO_NUM    &none     TO_NAV_ALT TO_NUM_ALT &none     &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BLSH   &none 
+&none  TO(NUM)    &none     TO(NAV_ALT) TO(NUM_ALT) &none     &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BLSH   &none 
                            &none      &none      &none         &kp MINUS  &kp N0  &kp DOT    
             >;
         };
