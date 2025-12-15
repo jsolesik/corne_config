@@ -7,9 +7,9 @@
 
             display-name = "SYMBOLS";
             bindings = <
-&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  TO(BASE)    TO(ALTER)   TO(EXTRA)  TO(OPT)      &none
+&none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  B_TO(BASE)    B_TO(ALTER)   B_TO(EXTRA)  B_TO(OPT)      &none
 &none  &kp COLON  &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS          &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI    &none
-&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  TO(SYM)     TO(MOUSE)   &none   &none  &none
+&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  B_TO(SYM)     B_TO(MOUSE)   &none   &none  &none
                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &none  &none      &none
             >;
         };
