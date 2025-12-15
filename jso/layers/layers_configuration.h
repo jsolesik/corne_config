@@ -78,3 +78,4 @@ B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, EN
 &none           &none                 &kp F4  &kp F5    &kp F6     &kp F11    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp RC(RALT)          &kp RCTRL \
 &none           &kp LC(LS(LA(LGUI)))  &kp F1  &kp F2    &kp F3     &kp F10    &kp C_RW        &kp C_FF        &none         &none            &kp LC(LS(LA(LGUI)))  &kp RC(RSHFT) \
 &kp LGUI  &trans  &none      &none           &trans       &kp RALT
+

@@ -19,7 +19,7 @@
       bindings = < JSO_LAYER_BINDINGS_##LAYER >; \
     };
 JSO_LAYER_LIST
-#undef MIRYOKU_X
+#undef JSO_X
   };
 
   conditional_layers {
