@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define JSO_X(LAYER, NAME) \
-#include "layers/layer_NAME.dtsi"
+#include "layers/layer_##NAME.dtsi"
 JSO_LAYER_LIST
 #undef JSO_X
 
