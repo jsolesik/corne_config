@@ -50,10 +50,10 @@ B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, EN
 &none      &none      &none       &kp RET       &kp BSPC        &kp DEL
 
 #define JSO_LAYER_BINDINGS_MOUSE \
-&none     &b_to_L_OPT   &b_to_L_EXTRA  &b_to_L_ALTER   &b_to_L_BASE    &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
-&none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none \
-&none     &none  &none     &b_to_L_SYM     &b_to_L_MOUSE   &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none \
-&none      &none      &none       &mkp M2     &mkp M1         &mkp M3
+&none &b_to_L_OPT &b_to_L_EXTRA &b_to_L_ALTER &b_to_L_BASE   &none       &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none \
+&none &kp LGUI    &kp LALT      &kp LCTRL     &kp LSHFT      &none       &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none \
+&none &none       &none         &b_to_L_SYM   &b_to_L_MOUSE  &none       &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none \
+&none &none       &none         U_BTN2        U_BTN1         U_BTN3
                                   
 #define JSO_LAYER_BINDINGS_MEDIA \
 &none     &b_to_L_OPT        &b_to_L_EXTRA  &b_to_L_ALTER   &b_to_L_BASE    &none       &none              &none             &kp C_BRI_DN  &kp C_BRI_UP  &none         &none \
