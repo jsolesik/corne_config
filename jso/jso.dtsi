@@ -48,3 +48,4 @@ JSO_X(ADJUST, "ADJUST")
 #include "jso_mousekeys.dtsi"
 #include "jso_combos.dtsi"
 #include "jso_behaviors.dtsi"
+#include "jso_macros.dtsi"
