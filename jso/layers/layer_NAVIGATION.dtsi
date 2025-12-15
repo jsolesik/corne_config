@@ -9,7 +9,7 @@
             bindings = <
 &none     TO(OPT)        TO(EXTRA)  TO(ALTER)   TO(BASE)    &none       &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &none
 &none     &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &none       &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none     TO(NAV_ALT)    &none     TO(NUM)     TO(NAV)     &none       &kp INS       &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none
+&none     &none    &none     TO(NUM)     TO(NAV)     &none       &kp INS       &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none
                                   &none      &none      &none       &kp RET       &kp BSPC        &kp DEL
             >;
         };

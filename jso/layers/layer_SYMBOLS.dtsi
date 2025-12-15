@@ -9,7 +9,7 @@
             bindings = <
 &none  &kp LBRC   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RBRC          &none  TO(BASE)    TO(ALTER)   TO(EXTRA)  TO(OPT)      &none
 &none  &kp COLON  &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS          &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI    &none
-&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  TO(SYM)     TO(MOUSE)   &none     TO(SYM_ALT)  &none
+&none  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp PIPE          &none  TO(SYM)     TO(MOUSE)   &none   &none  &none
                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE    &none  &none      &none
             >;
         };

@@ -16,12 +16,6 @@ JSO_X(MEDIA,     MEDIA) \
 JSO_X(LOWER,     LOWER) \
 JSO_X(RAISE,     RAISE) \
 JSO_X(ADJUST,    ADJUST) \
-JSO_X(NUM_ALT,   NUMERIC_ALT) \
-JSO_X(SYM_ALT,   SYMBOLS_ALT) \
-JSO_X(FUNC_ALT,  FUNCTIONS_ALT) \
-JSO_X(NAV_ALT,   NAVIGATION) \
-JSO_X(MOUSE_ALT, MOUSE_ALT) \
-JSO_X(MEDIA_ALT, MEDIA_ALT) 
 
 #define L_BASE      0
 #define L_ALTER     1   
@@ -36,11 +30,5 @@ JSO_X(MEDIA_ALT, MEDIA_ALT)
 #define L_LOWER     10   
 #define L_RAISE     11   
 #define L_ADJUST    12  
-#define L_NUM_ALT   13 
-#define L_SYM_ALT   14 
-#define L_FUNC_ALT  15
-#define L_NAV_ALT   16 
-#define L_MOUSE_ALT 17
-#define L_MEDIA_ALT 18
 
 #endif
