@@ -18,6 +18,15 @@
 #include "layers/layer_QWERTY.dtsi"
 #include "layers/layer_MTGAP.dtsi"
 #include "layers/layer_OCTA8.dtsi"
+#include "layers/layer_NUMERIC.dtsi"
+#include "layers/layer_SYMBOLS.dtsi"
+#include "layers/layer_FUNCTIONS.dtsi"
+#include "layers/layer_NAVIGATION.dtsi"
+#include "layers/layer_MOUSE.dtsi"
+#include "layers/layer_MEDIA.dtsi"
+#include "layers/layer_LOWER.dtsi"
+#include "layers/layer_RAISE.dtsi"
+#include "layers/layer_ADJUST.dtsi"
 
   };
 
