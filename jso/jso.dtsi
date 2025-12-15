@@ -27,6 +27,12 @@
 #include "layers/layer_LOWER.dtsi"
 #include "layers/layer_RAISE.dtsi"
 #include "layers/layer_ADJUST.dtsi"
+#include "layers/layer_NUMERIC_ALT.dtsi"
+#include "layers/layer_SYMBOLS_ALT.dtsi"
+#include "layers/layer_FUNCTIONS_ALT.dtsi"
+#include "layers/layer_NAVIGATION_ALT.dtsi"
+#include "layers/layer_MOUSE_ALT.dtsi"
+#include "layers/layer_MEDIA_ALT.dtsi"
 
   };
 
