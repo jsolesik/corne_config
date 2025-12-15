@@ -13,9 +13,9 @@
             display-name = "Octa8";
             bindings = <
 &kp TAB   &kp Y        &kp O        &kp U          &kp K          &kp X            &kp G          &kp W         &kp D         &kp L        &kp COMMA    &kp BSPC
-&kp BSPC  HR(LGUI, I)  HR(LALT, A)  HR(LCTRL, E)   HR(LSHFT, N)   &kp F            &kp B          HR(RSHFT, S)  HR(RCTRL, T)  HR(RALT, R)  HR(RGUI, C)  &kp SEMI
+&kp BSPC  HRL(LGUI, I)  HRL(LALT, A)  HRL(LCTRL, E)   HRL(LSHFT, N)   &kp F        &kp B          HRR(RSHFT, S)  HRR(RCTRL, T)  HRR(RALT, R)  HRR(RGUI, C)  &kp SEMI
 &kp PIPE  &kp SLASH    &kp Z        &kp H          &kp SQT        &kp Q            &kp V          &kp P         &kp M         &kp J        &kp DOT      &kp ESC
-                       LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)        LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+                       B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, ENTER)  B_LT(L_NUM, BSPC)   B_LT(L_FUNC, DEL)
             >;
         };
     };

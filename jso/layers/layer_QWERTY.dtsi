@@ -13,7 +13,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q        &kp W        &kp E         &kp R         &kp T        &kp Y    &kp U         &kp I         &kp O        &kp P           &kp BSPC
-&kp LCTRL  HR(LGUI, A)  HR(LALT, S)  HR(LCTRL, D)  HR(LSHFT, F)  &kp G        &kp H    HR(RSHFT, J)  HR(RCTRL, K)  HR(RALT, L)  HR(RGUI, SEMI)  &kp SQT
+&kp LCTRL  HRL(LGUI, A)  HRL(LALT, S)  HRL(LCTRL, D)  HRL(LSHFT, F)  &kp G    &kp H    HRR(RSHFT, J)  HRR(RCTRL, K)  HRR(RALT, L)  HRR(RGUI, SEMI)  &kp SQT
 &kp LSHFT  &kp Z        &kp X        &kp C         &kp V         &kp B        &kp N    &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp ESC
                                      &kp LGUI      &mo L_LOWER   &kp SPACE    &kp RET  &mo L_RAISE   &kp RALT
             >;

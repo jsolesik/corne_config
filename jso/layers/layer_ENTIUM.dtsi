@@ -12,10 +12,10 @@
 
             display-name = "Entium v12";
             bindings = <
-&kp TAB   &kp Q        &kp Y        &kp O          &kp U          &kp EQUAL        &kp X    &kp L         &kp D         &kp W        &kp Z        &kp BSPC
-&kp B     HR(LGUI, C)  HR(LALT, I)  HR(LCTRL, A)   HR(LSHFT, E)   &kp MINUS        &kp K    HR(RSHFT, H)  HR(RCTRL, T)  HR(RALT, N)  HR(RGUI, S)  &kp F
-&kp PIPE  &kp SQT      &kp COMMA    &kp DOT        &kp SEMI       &kp SLASH        &kp J    &kp M         &kp G         &kp P        &kp V        &kp RET
-                       LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)        LT(L_SYM, ENTER)  LT(L_NUM, R)   LT(L_FUNC, DEL)
+&kp TAB   &kp Q         &kp Y         &kp O           &kp U           &kp EQUAL        &kp X    &kp L          &kp D          &kp W         &kp Z         &kp BSPC
+&kp B     HRL(LGUI, C)  HRL(LALT, I)  HRL(LCTRL, A)   HRL(LSHFT, E)   &kp MINUS        &kp K    HRR(RSHFT, H)  HRR(RCTRL, T)  HRR(RALT, N)  HRR(RGUI, S)  &kp F
+&kp PIPE  &kp SQT       &kp COMMA     &kp DOT         &kp SEMI        &kp SLASH        &kp J    &kp M          &kp G          &kp P         &kp V         &kp RET
+                        B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)        B_LT(L_SYM, ENTER)  B_LT(L_NUM, R)   B_LT(L_FUNC, DEL)
             >;
         };
     };

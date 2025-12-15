@@ -12,10 +12,10 @@
 
             display-name = "Colemak DH";
             bindings = <
-&kp TAB   &kp Q        &kp W        &kp F          &kp P          &kp B            &kp J          &kp L         &kp U         &kp Y        &kp SEMI     &kp LEFT_BRACKET
-&kp BSPC  HR(LGUI, A)  HR(LALT, R)  HR(LCTRL, S)   HR(LSHFT, T)   &kp G            &kp M          HR(RSHFT, N)  HR(RCTRL, E)  HR(RALT, I)  HR(RGUI, O)  &kp RIGHT_BRACKET
-&kp PIPE  &kp Z        &kp X        &kp C          &kp D          &kp V            &kp K          &kp H         &kp COMMA     &kp DOT      &kp FSLH     &kp BACKSLASH
-                    LT(L_MEDIA, ESC)  LT(L_NAV, SPACE)  LT(L_MOUSE, TAB)           LT(L_SYM, ENTER)  LT(L_NUM, BSPC)   LT(L_FUNC, DEL)
+&kp TAB   &kp Q         &kp W         &kp F          &kp P          &kp B          &kp J          &kp L          &kp U          &kp Y         &kp SEMI      &kp LEFT_BRACKET
+&kp BSPC  HRL(LGUI, A)  HRL(LALT, R)  HRL(LCTRL, S)  HRL(LSHFT, T)  &kp G          &kp M          HRR(RSHFT, N)  HRR(RCTRL, E)  HRR(RALT, I)  HRR(RGUI, O)  &kp RIGHT_BRACKET
+&kp PIPE  &kp Z         &kp X         &kp C          &kp D          &kp V          &kp K          &kp H          &kp COMMA      &kp DOT       &kp FSLH      &kp BACKSLASH
+                    B_LT(L_MEDIA, ESC)  B_LT(L_NAV, SPACE)  B_LT(L_MOUSE, TAB)           B_LT(L_SYM, ENTER)  B_LT(L_NUM, BSPC)   B_LT(L_FUNC, DEL)
             >;
         };
     };
