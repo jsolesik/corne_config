@@ -1,4 +1,4 @@
-#define JSO_COMBO(NAME, KEY_POS, BINDING)
+#define JSO_COMBO(NAME, KEY_POS, BINDING) \
 / { \
     combos { \
         compatible = "zmk,combos"; \
