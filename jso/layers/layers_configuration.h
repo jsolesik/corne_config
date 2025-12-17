@@ -86,9 +86,9 @@ U_NU  &kp TILDE  &kp EXCL       &kp AT                &kp HASH               &kp
 // |      | F10 | F1 | F2 | F3 |  PBRK |           |     |     |     |     |     |      |
 //                   | APP | SPC | TAB |           |     |     |     |
 #define JSO_LAYER_BINDINGS_FUNC \
-&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    U_NU  B_TO(BASE)    B_TO(ALTER)   B_TO(EXTRA)  B_TO(OPT)       U_NU \
+&kp K_SCREENSAVER  &kp F12  &kp F7  &kp F8  &kp F9   &kp PRINTSCREEN    U_NU  B_TO(BASE)    B_TO(ALTER)   B_TO(EXTRA)  B_TO(OPT)    &vader \
 &win_screenshot    &kp F11  &kp F4  &kp F5  &kp F6   &kp SCROLLLOCK     U_NU  B_RS  B_RC  B_RA  B_RG     U_NU \
-&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    U_NU  B_TO(FUNC)    B_TO(MEDIA)   U_NU   U_NU  U_NU \
+&CtrlAltDel        &kp F10  &kp F1  &kp F2  &kp F3   &kp PAUSE_BREAK    U_NU  B_TO(FUNC)    B_TO(MEDIA)   U_NU   U_NU  &severus \
 &kp K_APP  &kp SPACE  &kp TAB       U_NU  U_NU      U_NU
 
 // NAVIGATION
