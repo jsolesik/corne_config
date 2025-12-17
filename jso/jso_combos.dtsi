@@ -12,6 +12,8 @@
 
 JSO_COMBO(combo_esc, <0 1>, &kp ESC)
 JSO_COMBO(combo_to_base, <6 7>, &to L_BASE)
-JSO_COMBO(combo_to_extra, <6 8>, &kp L_EXTRA)
+JSO_COMBO(combo_to_extra, <18 19>, &to L_ALTER)
+JSO_COMBO(combo_to_extra, <30 31>, &to L_EXTRA)
+JSO_COMBO(combo_to_extra, <39 40>, &to L_OPT)
 JSO_COMBO(combo_screen_lock, <10 11>, &screen_lock)
-JSO_COMBO(combo_ctrl_alt_del, <24 25>, &kp LC(LA(DEL)))
+JSO_COMBO(combo_ctrl_alt_del, <24 25>, &CtrlAltDel)
