@@ -2,4 +2,9 @@ U_MACRO(CtrlAltDel, bindings = <&kp LC(LA(DEL))>;)
 U_MACRO(win_screenshot, bindings = <&kp LG(LS(S))>;)
 U_MACRO(screen_lock, bindings = <&kp LG(L)>;)
 U_MACRO(vader, bindings = <&kp V &kp A &kp D &kp E &kp R>;)
-U_MACRO(severus, bindings = <&kp LS(S) &kp LS(E) &kp LS(V) &kp LS(E) &kp LS(R) &kp LS(U) &kp LS(S) &kp SPC &kp LS(M) &kp LS(A) &kp LS(X) &kp LS(I) &KP LS(M) &kp LS(U) &kp LS(S)>;)
+
+U_MACRO(severus, \
+bindings = <\
+&kp LS(S) &kp LS(E) &kp LS(V) &kp LS(E) &kp LS(R) &kp LS(U) &kp LS(S) &kp SPC \
+&kp LS(M) &kp LS(A) &kp LS(X) &kp LS(I) &kp LS(M) &kp LS(U) &kp LS(S)\
+>;)
