@@ -2,7 +2,7 @@
 / { \
     combos { \
         compatible = "zmk,combos"; \
-        combo_##NAME { \
+        NAME { \
             timeout-ms = <50>; \
             key-positions = KEY_POS; \
             bindings = <BINDING>; \
@@ -10,8 +10,8 @@
     }; \
 };
 
-JSO_COMBO(esc, <0 1>, &kp ESC)
-JSO_COMBO(to_base, <6 7>, &to L_BASE)
-JSO_COMBO(to_extra, <6 8>, &kp L_EXTRA)
-JSO_COMBO(screen_lock, <10 11>, &screen_lock)
-JSO_COMBO(ctrl_alt_del, <24 25>, &kp LC(LA(DEL)))
+JSO_COMBO(combo_esc, <0 1>, &kp ESC)
+JSO_COMBO(combo_to_base, <6 7>, &to L_BASE)
+JSO_COMBO(combo_to_extra, <6 8>, &kp L_EXTRA)
+JSO_COMBO(combo_screen_lock, <10 11>, &screen_lock)
+JSO_COMBO(combo_ctrl_alt_del, <24 25>, &kp LC(LA(DEL)))
